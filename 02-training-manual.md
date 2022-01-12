@@ -14,7 +14,7 @@
 
 ### 2.1. Lesson: An Overview of the Interface インターフェイスの概観
 
-### 2.2. Lesson: Adding your first layers レイヤーを追加してみる
+### 2.2. Lesson: Adding your first layers まずはレイヤーを追加してみる
 
 これまで一度も QGIS を使ったことが無い場合は、マニュアル記載の手順に従えば十分であろう。
 
@@ -42,4 +42,39 @@
 
 取りあえず、トレーニング・マニュアルをやる間は、WGS 84 をプロジェクト CRS とするのが良いようだ。
 
-### 2.3. Lesson: Navigating the Map Canvas 地図キャンバスを見回る
+### 2.3. Lesson: Navigating the Map Canvas 地図キャンバスを見て回る
+
+### 2.4. Lesson: Symbology 
+
+symbology って、どう和訳すれば良いのだ？ 適切な言葉が見つからない。
+
+#### 2.4.8 Follow Along: Ordering Symbol Leves シンボル・レベルの順序付け
+
+複数のシンボル・レイヤを持つレイヤで複数の地物を描画するときに、デフォルトでは、シンボル・レイヤ
+の順序に従った描画が**地物ごとに**行われる。
+
+1. 地物 A のシンボル・レイヤ 0
+2. 地物 A のシンボル・レイヤ 1
+3. 地物 B のシンボル・レイヤ 0
+4. 地物 B のシンボル・レイヤ 1
+5. 地物 C のシンボル・レイヤ 0
+6. 地物 C のシンボル・レイヤ 1
+
+しかし、シンボル・レベルを有効にしてその順序付けを行うと、**シンボル・レイヤごと**の描画になる。
+
+1. 地物 A のシンボル・レイヤ 0
+2. 地物 B のシンボル・レイヤ 0
+3. 地物 C のシンボル・レイヤ 0
+4. 地物 A のシンボル・レイヤ 1
+5. 地物 B のシンボル・レイヤ 1
+6. 地物 C のシンボル・レイヤ 1
+
+#### 2.4.13. Follow Along: Geometry generator symbology
+
+これも訳しづらい。幾何学的計算による symbology
+
+## 3. Module: Classifying Vector Data ベクタ・データを分類する
+
+### 3.1. Lesson: Vector Attribute Data ベクタ属性データ
+
+#### 3.1.1. Follow Along: Viewing Layer Attributes レイヤの属性を見る
