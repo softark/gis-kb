@@ -178,6 +178,10 @@ QuickMapServices は、何故か分らないが、うまく動かない。デー
 現在、Cent-OS に qgis-server をインストールする方法は無いようだ。
 ELGIS (Enterprise linux GIS) のレポジトリがかつては存在したが、もう保守されていない。仕方がないので読み飛ばした。
 
+上記は間違い。2025年1月1日現在、Cent-OS 9 のリポジトリに qgis-server がある。
+
++ [QGIS Server Guide/Manual](https://docs.qgis.org/3.34/en/docs/server_manual/index.html#qgis-server-manual)
+
 ## 12. Module: GRASS
 
 ### 12.1. Lesson: GRASS Setup
