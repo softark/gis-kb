@@ -74,7 +74,7 @@ nginx を起動する。
 
 ## QGIS Server インストール
 
-Cent-OS 9 では、dnf でインストール出来る。
+AlmaLinux 9 では、dnf でインストール出来る。
 
 crb レポジトリを有効にしておく必要がある。
 
@@ -85,7 +85,7 @@ crb レポジトリを有効にしておく必要がある。
 /etc/yum.repos.d/almalinux-crb.repo を編集しても良い。
 
 ```editorconfig
-# dnf list | grep qgis
+# dnf list *qgis*
 # dnf install qgis-server
 ```
 

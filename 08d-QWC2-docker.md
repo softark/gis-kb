@@ -1,5 +1,4 @@
-# QGIS Web Client 2
-
+# QGIS Web Client 2 using Docker
 https://qwc-services.github.io/master/
 
 ## Docker Engine をインストール
@@ -72,40 +71,3 @@ Note: The sample docker-compose-example.yml uses latest-YYYY-lts as image versio
 The map viewer will run on http://localhost:8088/.
 
 The admin GUI will run on http://localhost:8088/qwc_admin (default admin credentials: username admin, password admin, requires password change on first login).
-
-## Standalone QWC2 をインストールする
-
-### nodejs, yarnpkg
-
-```bash
-# dnf module list nodejs        [List Node.js Stream]
-# dnf module enable nodejs:20   [Enable Node.js 20 Stream]
-# dnf install nodejs -y         [Install Node.js 20 Version]
-
-# node -v
-# npm -v
-
-# dnf install yarnpkg
-```
-
-The fastest way to get started is by cloning the demo application:
-
-```bash
-git clone --recursive https://github.com/qgis/qwc2-demo-app.git
-```
-
-Next, install all required dependencies:
-
-```bash
-cd qwc2-demo-app
-yarn install
-```
-
-Then, start a local development application:
-
-```bash
-yarn start
-```
-
-The development application will run by default on http://localhost:8081.
-
